@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewChenXiang/testTravis.git"
+  },
+  "author": "Andrew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewChenXiang/testTravis/issues"
+  },
+  "homepage": "https://github.com/AndrewChenXiang/testTravis#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
