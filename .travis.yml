@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - 10
 
-script:
-  - echo package version...
-  - echo $PACKAGE_VERSION
+install:
+  - npm install
 
-  before_deploy:
-  - npm install 
+script:
+  - echo npm run ...
+  - npm run start
